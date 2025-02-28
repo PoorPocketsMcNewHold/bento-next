@@ -11,9 +11,9 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'John',
+  name: 'Pocket',
   openInNewTab: true,
-  title: 'Bento',
+  title: 'Startpage',
 
   // Clock
   twelveHourFormat: false,
@@ -28,7 +28,7 @@ export const config: Config = {
   },
 
   // Theme
-  theme: 'bento',
+  theme: 'catppuccin-frappe',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
@@ -50,15 +50,15 @@ export const config: Config = {
 
   // Search Bar
   searchBar: true,
-  searchEngine: 'google', // google, ddg
+  searchEngine: 'ddg', // google, ddg
   barPlaceholder: '', // if blank, use search engine name. Set to ' ' for no placeholder.
   autoFocusBar: true,
 
   // Greetings
-  greetingMorning: 'Good morning,',
-  greetingAfternoon: 'Good afternoon,',
-  greetingEvening: 'Good evening,',
-  greetingNight: 'Sweet dreams,',
+  greetingMorning: 'Bonjour,',
+  greetingAfternoon: 'Bonjour,',
+  greetingEvening: 'Bonsoir,',
+  greetingNight: 'Bonne nuit,',
 
   // Layout
   layout: 'bento', // 'bento', 'lists', 'buttons'
@@ -67,7 +67,7 @@ export const config: Config = {
   weatherKey: import.meta.env.VITE_API_KEY, // Set your OpenWeatherMap key in .env - Move the included .env.example to .env
   weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
-  language: 'en', // More languages in https://openweathermap.org/current#multi
+  language: 'fr', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // Request location from the browser. If false, or location is denied, use the coordinates below.
   defaultLatitude: '37.775',
@@ -78,7 +78,7 @@ export const config: Config = {
   // "location" - Switches based on local sunrise/sunset (requires OpenWeatherMap API key)
   // "preset" - Switches based on set hours
   // "none" - No automatic switching
-  autoTheme: 'system',
+  autoTheme: 'none',
 
   // If autoTheme is set to "preset", set the hours below.
   darkModeOnTime: '18:30',
@@ -136,9 +136,9 @@ export const config: Config = {
     // You muse use the 'buttons' layout to use this group.
     [
       {
-        name: 'Music',
-        icon: 'fab-spotify',
-        url: 'https://open.spotify.com',
+        name: 'Mastodon',
+        icon: 'fab-mastodon',
+        url: 'https://mamot.fr',
       },
       {
         name: 'twitter',
@@ -257,7 +257,7 @@ export const config: Config = {
           },
           {
             name: 'Repos',
-            url: 'https://github.com/migueravila',
+            url: 'https://github.com/poorpocketsmcnewhold',
           },
         ],
       },
